@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Structure</title>
+</head>
+<body>
+    <h2>Registratiion Form</h2>
+    <form action="url" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="eg:- abcd123@gmai;.com">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" maxlength="15" required placeholder="strong password">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+                <input type="radio" id="female" name="gender"> 
+        </div>
+        <br>
+        <div>
+            <label for="hobbies">Hobbies</label>
+                <label for="readings">Readings</label>
+                <input type="checkbox" id="hobbies" name="hobbies">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="hobbies" name="hobbies">
+        </div>
+        <br>
+        <div>
+            <label for="devices">Devices</label>
+            <select name="devices" id="devices" multiple>
+                <option value="mobile">Mobile</option>
+                <option value="ipad">Ipod</option>
+                <option value="Laptop">laptop</option>
+                <option value="mac">Mac</option>
+                <option value="tipu">Tipu</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10" cols="10" placeholder="share your  thought"></textarea>
+        </div>
+        <br>
+        <div>
+            <button> Submit </button>
+                `<input type="hidden">
+        </div>
+    </form>
+</body>
+</html>
