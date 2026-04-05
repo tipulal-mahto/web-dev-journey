@@ -1,0 +1,39 @@
+*{
+    font-size: 110%;
+}
+.my-box{
+    border-radius: 10px black;
+    margin: 50px auto;
+    padding: 20px;
+    display: block;
+    width: 500px;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 200%;
+}
+span{
+    text-decoration: underline;
+    line-height: 45px;
+}
+button{
+    justify-content: center;
+}
+a:link{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: brown;
+}
+button:hover{
+    background-color: blue
+}
